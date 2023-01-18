@@ -69,8 +69,8 @@ ul {
 .scroll{
   position: relative;   <------------------------- required 
   
-    flex: 1;
-}*/
+    flex: 1;*/
+}
 .page-head{
   display: flex;
   align-items: center;
@@ -87,8 +87,8 @@ ul {
   justify-content: space-around;
   flex-wrap: wrap;
   /*position: absolute;  <------------------------- required 
-      	left: 0; top: 0; right: 0; bottom: 0;   <------- required 
-      	overflow-y: auto;   <--------------------------- required */
+      	left: 0; top: 0; right: 0; bottom: 0;   <------- required  */
+      	overflow-y: auto;   <--------------------------- required
 }
 .card {
   border: 1px solid rgb(0, 39, 101);
