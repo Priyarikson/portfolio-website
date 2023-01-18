@@ -4,10 +4,11 @@ body {
   display: flex;
   flex-direction: column;
   font-family:'Times New Roman', Times, serif;
+ 
 }
-.hero {
-  flex: 1;
+.site-body {
   display: flex;
+   
 }
 
 .header {
@@ -56,28 +57,38 @@ ul {
 .skills-icon{
   font-size: 55px;
 }
-.container {
+.page-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   background-color: bisque;
+  position: relative;  /* <------------------------- required */
+    	
+      	flex: 1;
+  }
+.scroll{
+  position: relative;  /* <------------------------- required */
   
+    flex: 1;
 }
-.my-work{
+.page-head{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 72px;
+  height: 75px;
   font-size: 50px;
   background-color: bisque;
   color: rgb(0, 0, 0);
   font-family:cursive;
+  
 }
-.cards{
+.page-body{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
+  position: absolute;  /* <------------------------- required */
+      	left: 0; top: 0; right: 0; bottom: 0;  /* <------- required */
+      	overflow-y: auto;  /* <--------------------------- required */
 }
 .card {
   border: 1px solid rgb(0, 39, 101);
@@ -104,9 +115,10 @@ ul {
   font-weight: 800;
   height: 60px;
   width: 400px;
-  background:rgb(3, 103, 18);
+  
   color: white;
 }
+
 
 .footer {
   display: flex;
@@ -116,4 +128,3 @@ ul {
   background:rgb(0, 39, 101);
   color: rgb(255, 255, 255);
 }
-
