@@ -62,15 +62,15 @@ ul {
   flex-wrap: wrap;
   flex-direction: column;
   background-color: bisque;
-  position: relative;  /* <------------------------- required */
+   /*position: relative;  <------------------------- required 
     	
       	flex: 1;
   }
 .scroll{
-  position: relative;  /* <------------------------- required */
+  position: relative;   <------------------------- required 
   
     flex: 1;
-}
+}*/
 .page-head{
   display: flex;
   align-items: center;
@@ -86,9 +86,9 @@ ul {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  position: absolute;  /* <------------------------- required */
-      	left: 0; top: 0; right: 0; bottom: 0;  /* <------- required */
-      	overflow-y: auto;  /* <--------------------------- required */
+  /*position: absolute;  <------------------------- required 
+      	left: 0; top: 0; right: 0; bottom: 0;   <------- required 
+      	overflow-y: auto;   <--------------------------- required */
 }
 .card {
   border: 1px solid rgb(0, 39, 101);
