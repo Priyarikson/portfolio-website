@@ -103,7 +103,13 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  
+  border-radius: 10px;
+}
+.card img:hover{
+  transform: scale(1.05);
+  transition: all ease ;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(136, 219, 140);
 }
 
 .card-header {
