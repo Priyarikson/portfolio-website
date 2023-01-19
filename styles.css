@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family:'Times New Roman', Times, serif;
- 
+  text-align: justify;
 }
 .site-body {
   display: flex;
